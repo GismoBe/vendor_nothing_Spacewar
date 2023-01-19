@@ -11,6 +11,12 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/system/etc/permissions/se.dirac.acs.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/se.dirac.acs.xml \
     vendor/nothing/Spacewar/proprietary/system/etc/public.libraries.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/public.libraries.txt \
     vendor/nothing/Spacewar/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
+    vendor/nothing/Spacewar/proprietary/system/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_beautyshot.so \
+    vendor/nothing/Spacewar/proprietary/system/lib/libarcsoft_hdr_detection.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_hdr_detection.so \
+    vendor/nothing/Spacewar/proprietary/system/lib/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_high_dynamic_range.so \
+    vendor/nothing/Spacewar/proprietary/system/lib/libarcsoft_low_light_hdr.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_low_light_hdr.so \
+    vendor/nothing/Spacewar/proprietary/system/lib/libarcsoft_singlecam_bokeh.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_singlecam_bokeh.so \
+    vendor/nothing/Spacewar/proprietary/system/lib/libmpbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmpbase.so \
     vendor/nothing/Spacewar/proprietary/system/lib64/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_beautyshot.so \
     vendor/nothing/Spacewar/proprietary/system/lib64/libarcsoft_hdr_detection.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_hdr_detection.so \
     vendor/nothing/Spacewar/proprietary/system/lib64/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_high_dynamic_range.so \
@@ -164,6 +170,8 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/system_ext/lib/vendor.qti.hardware.wifidisplaysession@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.wifidisplaysession@1.0.so \
     vendor/nothing/Spacewar/proprietary/system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/nothing/Spacewar/proprietary/system_ext/lib64/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.wifidisplayhal@1.0.so \
+    vendor/nothing/Spacewar/proprietary/system_ext/lib/libcamxextension_algo.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libcamxextension_algo.so \
+    vendor/nothing/Spacewar/proprietary/system_ext/lib/libencoderjpeg_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libencoderjpeg_jni.so \
     vendor/nothing/Spacewar/proprietary/system_ext/lib64/lib-imsvideocodec.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvideocodec.so \
     vendor/nothing/Spacewar/proprietary/system_ext/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvt.so \
     vendor/nothing/Spacewar/proprietary/system_ext/lib64/lib-imsvtextutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvtextutils.so \
@@ -183,6 +191,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/system_ext/lib64/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmrtpdecoder.so \
     vendor/nothing/Spacewar/proprietary/system_ext/lib64/libmmrtpencoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmrtpencoder.so \
     vendor/nothing/Spacewar/proprietary/system_ext/lib64/libofflineproc_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libofflineproc_jni.so \
+    vendor/nothing/Spacewar/proprietary/system_ext/lib/libofflineproc_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libofflineproc_jni.so \
     vendor/nothing/Spacewar/proprietary/system_ext/lib64/libwfdavenhancements.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfdavenhancements.so \
     vendor/nothing/Spacewar/proprietary/system_ext/lib64/libwfdclient.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfdclient.so \
     vendor/nothing/Spacewar/proprietary/system_ext/lib64/libwfdcommonutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfdcommonutils.so \
@@ -1192,6 +1201,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_high_dynamic_range.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libarcsoft_night_video.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_night_video.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libarcsoft_singlecam_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_singlecam_bokeh.so \
+    vendor/nothing/Spacewar/proprietary/system/lib64/libmpbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmpbase.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libasn1cper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasn1cper.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libasn1crt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasn1crt.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libasn1crtx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasn1crtx.so \
